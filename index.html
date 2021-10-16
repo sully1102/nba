@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+
+<body>
+  <div class="page-container">
+    <div class="header">
+      <h1>Weather App</h1>
+    </div>
+
+    <div class="content">
+      <form class="input-box">
+        <label>Enter a U.S. city</label><br>
+        <input id="cityInput" type="text"></input><br>
+        <br>
+        <input id="weatherSubmit" type="submit" value="Today's Weather"></input>
+        <input id="forecastSubmit" type="submit" value="5 Day Forecast"></input>
+      </form><br>
+
+      <div id="weatherResults"></div><br>
+      
+      <div id="grid"></div>
+    </div>
+
+    <div class="footer">
+      <h1> <a href="https://github.com/BYUCS260/weather-app-sully1102">Github ClassRoom Link</a></h1>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="/script.js"></script>
+</body>
+
+</html>
