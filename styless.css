@@ -1,0 +1,118 @@
+.header, .footer {
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.image-container {
+  margin: auto;
+  width: 90%;
+}
+
+.image-container > img {
+  width: 100%;
+}
+
+.input-box {
+  margin: auto;
+  padding-top: 10px;
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+
+.playerDisplay {
+  margin: auto;
+  width: 90%;
+  color: white;
+  margin-bottom: 100px;
+}
+
+#playerResults {
+  border: 5px solid yellow;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
+
+#playerInfo {
+  width: 48%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#playerLogo {
+  width: 48%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#playerLogo > img {
+  max-width: 75%;
+  max-height: auto;
+  display: block;
+  margin: auto;
+}
+
+#playerStats {
+  text-align: center;
+}
+
+table {
+  border: 3px solid purple;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: right;
+}
+
+tbody {
+  text-align: right;
+}
+
+div:empty {
+  display: none;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+/* Big Screen */
+@media only screen and (min-width: 1007px) {
+
+}
+/* Medium Screen */
+@media only screen and (min-width: 641px) and (max-width: 1006px) {
+
+}
+/* Small Screen*/
+@media only screen and (max-width: 640px) {
+
+}
